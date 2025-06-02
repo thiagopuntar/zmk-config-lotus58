@@ -77,11 +77,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans    &trans    &trans       &trans                               &trans          &trans          &trans        &trans           &trans           &trans
-&trans  &trans  &trans    &kp UP    &trans       &trans                               &kp GRAVE       &kp EQUAL       &kp PLUS      &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp RIGHT_BRACKET
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &trans         &trans     &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp BACKSLASH    &kp PIPE
-&trans  &trans  &trans    &trans    &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans     &trans          &trans          &trans        &trans           &trans           &trans
-                          &trans    &trans       &mkp RCLK      &mkp LCLK  &mkp LCLK  &mkp RCLK       &trans          &trans
+&kp TILDE  &trans  &trans    &trans    &trans       &trans                               &trans          &trans          &trans        &trans           &trans           &trans
+&trans     &trans  &trans    &kp UP    &trans       &trans                               &kp GRAVE       &kp EQUAL       &kp PLUS      &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp RIGHT_BRACKET
+&trans     &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &trans         &trans     &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp BACKSLASH    &kp PIPE
+&trans     &trans  &trans    &trans    &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans     &trans          &trans          &trans        &trans           &trans           &trans
+                             &trans    &trans       &mkp RCLK      &mkp LCLK  &mkp LCLK  &mkp RCLK       &trans          &trans
             >;
         };
 
